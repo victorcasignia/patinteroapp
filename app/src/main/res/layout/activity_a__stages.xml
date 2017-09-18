@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Stage_Page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stage_select_bg"
+    tools:context="com.example.userr.patinteroapp.A_Stages">
+
+    <ImageView
+        android:id="@+id/imgView_life"
+        android:layout_width="115px"
+        android:layout_height="110px"
+        android:layout_marginLeft="25px"
+        android:layout_marginTop="20px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/lives_status" />
+
+    <ImageView
+        android:id="@+id/imgView_speed"
+        android:layout_width="115px"
+        android:layout_height="110px"
+        android:layout_marginLeft="190px"
+        android:layout_marginTop="20px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/speed_boost_status" />
+
+    <ImageView
+        android:id="@+id/imgView_slow"
+        android:layout_width="115px"
+        android:layout_height="110px"
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="20px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/slow_status" />
+
+    <ImageView
+        android:id="@+id/imgView_stamina"
+        android:layout_width="115px"
+        android:layout_height="110px"
+        android:layout_marginLeft="450px"
+        android:layout_marginTop="20px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/unlimited_stamina_status" />
+
+    <ImageView
+        android:id="@+id/imgView_invisible"
+        android:layout_width="115px"
+        android:layout_height="110px"
+        android:layout_marginLeft="580px"
+        android:layout_marginTop="20px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/invincibility_status" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_stageUnlockInAct"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_marginLeft="70px"
+        android:layout_marginTop="290px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/stage_unlock_inactive" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_stageLockInAct2"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_marginLeft="270px"
+        android:layout_marginTop="290px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/stage_locked" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_stageLockInAct3"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_marginLeft="470px"
+        android:layout_marginTop="290px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/stage_locked" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_stageLockInAct4"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_marginLeft="70px"
+        android:layout_marginTop="490px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/stage_locked" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_stageLockInAct5"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_marginLeft="270px"
+        android:layout_marginTop="490px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/stage_locked" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_stageLockInAct6"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_marginLeft="470px"
+        android:layout_marginTop="490px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/stage_locked" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_stageLockInAct7"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_marginLeft="70px"
+        android:layout_marginTop="690px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/stage_locked" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_stageLockInAct8"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_marginLeft="270px"
+        android:layout_marginTop="690px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/stage_locked" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_stageLockInAct9"
+        android:layout_width="180px"
+        android:layout_height="180px"
+        android:layout_marginLeft="470px"
+        android:layout_marginTop="690px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/stage_locked" />
+
+    <ImageView
+        android:id="@+id/imgView_stageFrame"
+        android:layout_width="660px"
+        android:layout_height="660px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="250px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/stage_selection_grid_bamboo" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_prevInAc"
+        android:layout_width="194px"
+        android:layout_height="139px"
+        android:layout_marginLeft="60px"
+        android:layout_marginTop="1000px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/previous_button_inactive" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_nextAc"
+        android:layout_width="194px"
+        android:layout_height="139px"
+        android:layout_marginLeft="466px"
+        android:layout_marginTop="1000px"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/next_button_active" />
+
+
+</RelativeLayout>
