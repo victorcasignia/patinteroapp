@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Splash_Page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen"
+    tools:context="com.example.userr.patinteroapp.A_Splash">
+
+    <TextView
+        android:id="@+id/LoadingCompleteTextView"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1010px"
+        android:gravity="center"
+        android:textColor="@color/brown"
+        android:textSize="40px" />
+
+    <!--<ProgressBar-->
+        <!--android:id="@+id/progBar_splash"-->
+        <!--style="?android:attr/progressBarStyleHorizontal"-->
+        <!--android:layout_width="500px"-->
+        <!--android:layout_height="8px"-->
+        <!--android:layout_marginLeft="110px"-->
+        <!--android:layout_marginTop="1070px"-->
+        <!--android:background="@color/dark_brown"-->
+        <!--android:progressDrawable="@drawable/progressbar_theme" />-->
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif_runPlayer"
+        android:layout_width="130px"
+        android:layout_height="155px"
+        android:src="@drawable/loading"
+        android:layout_marginTop="800px"
+        android:layout_marginLeft="-130px"/>
+</RelativeLayout>

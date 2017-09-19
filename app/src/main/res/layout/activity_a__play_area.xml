@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Play_Stage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stagebg"
+    tools:context="com.example.userr.patinteroapp.A_PlayArea">
+
+    <ImageButton
+        android:id="@+id/imgBtn_speed"
+        android:layout_width="115px"
+        android:layout_height="110px"
+        android:layout_marginLeft="18px"
+        android:layout_marginTop="925px"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/speed_boost_status" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_slow"
+        android:layout_width="115px"
+        android:layout_height="110px"
+        android:layout_marginLeft="18px"
+        android:layout_marginTop="1063px"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/slow_status" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_stamina"
+        android:layout_width="115px"
+        android:layout_height="110px"
+        android:layout_marginLeft="583px"
+        android:layout_marginTop="925px"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/unlimited_stamina_status" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_invisible"
+        android:layout_width="115px"
+        android:layout_height="110px"
+        android:layout_marginLeft="583px"
+        android:layout_marginTop="1063px"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/invincibility_status" />
+
+    <ImageView
+        android:id="@+id/imgBtn_staminabar"
+        android:layout_width="180px"
+        android:layout_height="40px"
+        android:layout_marginLeft="220px"
+        android:layout_marginTop="25px"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/stamina_bar" />
+
+    <ImageView
+        android:id="@+id/imgBtn_staminabarlvl"
+        android:layout_width="180px"
+        android:layout_height="40px"
+        android:layout_marginLeft="220px"
+        android:layout_marginTop="25px"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/stamina_bar_lvl5" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_upInAc"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="930px"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/arrow_up_inactive" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_leftInAc"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_marginLeft="240px"
+        android:layout_marginTop="1010px"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/arrow_left_inactive" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_rightInAc"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_marginLeft="400px"
+        android:layout_marginTop="1010px"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/arrow_right_inactive" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_downInAc"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="1090px"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/arrow_down_inactive" />
+
+
+</RelativeLayout>
